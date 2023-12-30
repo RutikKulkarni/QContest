@@ -10,12 +10,10 @@ During this Micro-Experience, the developer:
 - Designed & implemented the classes required for a contest framework.
 - Implemented the business logic of running a simulated contest.
 
-## Milestone 0
-
 ### Extended Overview
 ![QContest](https://github.com/RutikKulkarni/QContest/assets/86470947/2a64d115-8aca-4251-91cb-7575c96b41fe)
 
-**Implement Entities**
+### **Implement Entities**
 
 **Scope of Work:**
 - Implement entities with the identified attributes and their behavior.
