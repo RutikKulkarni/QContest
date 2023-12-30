@@ -17,10 +17,6 @@ public class UserRepository implements IUserRepository{
         userMap = new HashMap<Long,User>();
     }
 
-    // TODO: CRIO_TASK_MODULE_SERVICES
-    // Complete the implementation of save method
-    // Implementation must take care of the following cases:-
-
     @Override
     public User save(User user) {
         // 1) Save a new user with unique ID to HashMap. ( Make use of AutoIncrement for unique ID)
@@ -30,10 +26,6 @@ public class UserRepository implements IUserRepository{
         ++autoIncrement;
         return u;
     }
-
-    // TODO: CRIO_TASK_MODULE_SERVICES
-    // Complete the implementation of findAll method
-    // Implementation must take care of the following cases:-
 
     @Override
     public List<User> findAll() {

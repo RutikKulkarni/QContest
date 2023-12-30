@@ -7,6 +7,10 @@ import org.junit.jupiter.api.Test;
 @DisplayName("User Tests")
 public class UserTests {
 
+    // TODO: WARNING!!!
+    //  DO NOT MODIFY ANY FILES IN THE TESTS/ ASSESSMENTS UNLESS ASKED TO.
+    //  Any modifications in this file may result in Assessment failure!
+
     // https://methodpoet.com/unit-test-method-naming-convention/
     @Test
     public void modifyScore_WhenScoreNegative_ThrowRunTimeException(){
